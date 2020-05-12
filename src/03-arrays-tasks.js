@@ -556,6 +556,7 @@ function group(array, keySelector, valueSelector) {
     }
     return res;
   }, multi);
+
   return multi;
 }
 

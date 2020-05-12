@@ -84,6 +84,7 @@ function timeSpanToString(startDate, endDate) {
   const minutes = (`${diff.getMinutes()}`).padStart(2, '0');
   const seconds = (`${diff.getSeconds()}`).padStart(2, '0');
   const milliseconds = (`${diff.getMilliseconds()}`).padStart(3, '0');
+
   return `${hours}:${minutes}:${seconds}.${milliseconds}`;
 }
 
